@@ -69,7 +69,7 @@ const ImageTable = () => {
   ];
   return (
     <Box sx={{ width: "100%" }}>
-      <DataGrid pageSize={5} autoHeight rows={rows} columns={columns} />
+      <DataGrid autoHeight rows={rows} columns={columns} />
     </Box>
   );
 };
